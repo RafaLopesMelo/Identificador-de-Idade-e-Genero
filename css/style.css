@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #05bae7;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font: bolder 40px Arial;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+div {
+    background-color: white;
+    position: relative;
+    right: 300px;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 20%;
+    box-shadow: -5px 5px 10px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font: normal 30px Arial;
+    padding-top: 20px;
+}
+
+input[type=number].idade {
+    width: 150px;
+    height: 60px;
+    position: relative;
+    left: 300px;
+    border-radius: 100%;
+    background-color: lightgray;
+    font: bold 30px Arial;
+    text-align: center;
+}
+
+p#pidade {
+    position: relative;
+    left: 40px;
+    top: 77px;
+    font: normal 28px Arial;
+}
+
+input[type=radio]#feminino{
+    position: relative;
+    bottom: 88px;
+    left: 390px;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+
+input[type=radio]#masculino {
+    position: relative;
+    top: 27px;
+    left: 170px;
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+}
+
+p#psexo {
+    font: normal 28px Arial;
+    position: relative;
+    left: 35px;
+    top: 40px;
+}
+
+p#pmasc {
+    position: relative;
+    left: 40px;
+    top: 80px;
+    font: normal 25px Arial;
+}
+
+p#pfem {
+    position: relative;
+    left: 270px;
+    bottom: 29px;
+    font: normal 25px Arial;
+}
+
+img {
+    width: 500px;
+    position: relative;
+    left: 900px;
+    bottom: 450px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px black;
+}
+
+input[type=button].botao {
+    position: relative;
+    left: 110px;
+    bottom: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font: bold 20px Arial;
+}
+
+input[type=button]:hover{
+    background-color: #cecece;
+    font: bold 21px Arial;
+}
+

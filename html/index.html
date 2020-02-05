@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="pt-BR"/>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../CSS/style.css"/>
+
+    </head>
+    <body>
+
+        <h1>Identificador de idade</h1>
+        <div id = "main">
+            <h2>Preencha os dados</h2>
+            
+            <p id = "pidade">Coloque sua idade:</p><input type="number" class="idade"/>
+            
+            <p id = "psexo">Indique seu gênero:</p>
+            <p id = "pmasc">Masculino:</p><input type="radio" name = "sexo" id = "masculino" value="masc" checked = "checked"/>
+            <p id = "pfem">Feminino:</p><input type="radio" name = "sexo" id = "feminino" value="fem"/>
+            <input type="button" value="Identificar" class = "botao" onclick="carregamento()"/>
+        </div>
+
+        <script src = "../JS/script.js"></script>
+
+    </body>
+</html>
